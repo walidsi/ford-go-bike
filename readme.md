@@ -1,5 +1,5 @@
-# (FordGoBike Exploration Title)
-## by (Walid Ismail)
+# FordGoBike Dataset Exploration
+## by Walid Ismail
 
 
 ## Dataset
