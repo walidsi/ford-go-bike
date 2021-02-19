@@ -13235,7 +13235,7 @@ $(document).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="(Feb-2019-Ford-GoBike-Trip-Dataset-Exploration)">(Feb-2019 Ford GoBike Trip Dataset Exploration)<a class="anchor-link" href="#(Feb-2019-Ford-GoBike-Trip-Dataset-Exploration)">&#182;</a></h1><h2 id="by-(Walid-Ismail)">by (Walid Ismail)<a class="anchor-link" href="#by-(Walid-Ismail)">&#182;</a></h2><h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>Our dataset includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area. In the following sections, we will analyze the information in the dataset and see what insights we can discover from it about rides and cyclists demographics.</p>
+<h1 id="Feb-2019-Ford-GoBike-Trip-Dataset-Exploration">Feb-2019 Ford GoBike Trip Dataset Exploration<a class="anchor-link" href="#Feb-2019-Ford-GoBike-Trip-Dataset-Exploration">&#182;</a></h1><h2 id="by-Walid-Ismail">by Walid Ismail<a class="anchor-link" href="#by-Walid-Ismail">&#182;</a></h2><h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2><p>Our dataset includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area. In the following sections, we will analyze the information in the dataset and see what insights we can discover from it about rides and cyclists demographics.</p>
 
 </div>
 </div>
@@ -13244,7 +13244,7 @@ $(document).ready(function(){
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="What-is-the-structure-of-your-dataset?">What is the structure of your dataset?<a class="anchor-link" href="#What-is-the-structure-of-your-dataset?">&#182;</a></h3><p>The dataset consists of approx 180k observations and 23 columns (included derived columns)</p>
-<h3 id="What-is/are-the-main-feature(s)-of-interest-in-your-dataset?">What is/are the main feature(s) of interest in your dataset?<a class="anchor-link" href="#What-is/are-the-main-feature(s)-of-interest-in-your-dataset?">&#182;</a></h3><p>Each observation includes information about trip start/end time as well as start/end station. In addtion we get information about the bike used and the gender/birth year of the cyclist taking the trip.</p>
+<h3 id="What-is/are-the-main-feature(s)-of-interest-in-your-dataset?">What is/are the main feature(s) of interest in your dataset?<a class="anchor-link" href="#What-is/are-the-main-feature(s)-of-interest-in-your-dataset?">&#182;</a></h3><p>Each observation includes information about trip start/end time as well as start/end station. In addition we get information about the bike used and the gender/birth year of the cyclist taking the trip.</p>
 <h3 id="What-features-in-the-dataset-do-you-think-will-help-support-your-investigation-into-your-feature(s)-of-interest?">What features in the dataset do you think will help support your investigation into your feature(s) of interest?<a class="anchor-link" href="#What-features-in-the-dataset-do-you-think-will-help-support-your-investigation-into-your-feature(s)-of-interest?">&#182;</a></h3><p>The following feature are good subjects for analysis:</p>
 <ul>
 <li>Trip start time</li>
@@ -13319,7 +13319,7 @@ $(document).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The above charts show that our cyclists are mostly males, and mostly subscibers. Also note that most trips are for cyclists not enrolled in the <b>Bike Share for All</b> program for low-income residents</p>
+<p>The above charts show that our cyclists are mostly males, and mostly subscribers. Also note that most trips are for cyclists not enrolled in the <b>Bike Share for All</b> program for low-income residents</p>
 
 </div>
 </div>
@@ -13534,7 +13534,7 @@ Number of trips above 100 minutes = 909
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>By zooming on the map we can see that most trips start from the stations on <b>Market Street</b> and <b>Townsend Street</b> in San Franciso. For Berkeley most trips start on <b>Bancroft Way</b>.</p>
+<p>By zooming on the map we can see that most trips start from the stations on <b>Market Street</b> and <b>Townsend Street</b> in San Francisco. For Berkeley most trips start on <b>Bancroft Way</b>.</p>
 
 </div>
 </div>
@@ -13606,7 +13606,7 @@ Number of trips above 100 minutes = 909
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="We-can-summarize-the-findings-from-our-univariate-plots-as-follows:">We can summarize the findings from our univariate plots as follows:<a class="anchor-link" href="#We-can-summarize-the-findings-from-our-univariate-plots-as-follows:">&#182;</a></h4><ul>
-<li>Our cyclists are mostly males, and mostly subscibers.</li>
+<li>Our cyclists are mostly males, and mostly subscribers.</li>
 <li>The vast majority of trips are for cyclists not enrolled in the <b>Bike Share for All</b> program for low-income residents.</li>
 <li>The majority of trips are in San Francisco followed by Oakland and Berkeley</li>
 <li>Most of our cyclists are in the  <b>25-34 age group</b>.</li>
@@ -13624,9 +13624,9 @@ Number of trips above 100 minutes = 909
 <h4 id="We-observed-the-following-unusual-characteristics-in-the-dataset:">We observed the following unusual characteristics in the dataset:<a class="anchor-link" href="#We-observed-the-following-unusual-characteristics-in-the-dataset:">&#182;</a></h4><ul>
 <li><p>All rows in the dataset contain the most important trip data like start/end station/datetime and trip duration.</p>
 </li>
-<li><p>The duration of trips range from low single digits to 1400 minutes. However, the total number of trips that are above 200 minutes is approx 900 trips of more than 180K trips in our dataset. We decided against removiing these and other outliers above 25 minutes since they are approx 10,000 trips or 5% of the observations with valuable trip data and many of them contain trip span of more than 1 day so maybe they are just our cyclists returning bikes late.</p>
+<li><p>The duration of trips range from low single digits to 1400 minutes. However, the total number of trips that are above 200 minutes is approx 900 trips of more than 180K trips in our dataset. We decided against removing these and other outliers above 25 minutes since they are approx 10,000 trips or 5% of the observations with valuable trip data and many of them contain trip span of more than 1 day so maybe they are just our cyclists returning bikes late.</p>
 </li>
-<li><p>There are approx 8265 observations with missing birth year values. We did not remove those rows as the main trip data like start/end station/timestamp are not missing for the entire dataset so we can still get valuable information from these trip although we arfe missing the age value for them.</p>
+<li><p>There are approx 8265 observations with missing birth year values. We did not remove those rows as the main trip data like start/end station/timestamp are not missing for the entire dataset so we can still get valuable information from these trip although we are missing the age value for them.</p>
 </li>
 <li><p>There are 197 stations with missing ID and name, however the stations latitude/longitude values are not missing so we could still get the station location and city so these rows were not removed as well.</p>
 </li>
@@ -13644,7 +13644,8 @@ Number of trips above 100 minutes = 909
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Bivariate-Exploration">Bivariate Exploration<a class="anchor-link" href="#Bivariate-Exploration">&#182;</a></h2>
+<h2 id="Bivariate-Exploration">Bivariate Exploration<a class="anchor-link" href="#Bivariate-Exploration">&#182;</a></h2><p>In this section we explore relationships between different sets of two variables.</p>
+
 </div>
 </div>
 </div></section><section>
@@ -13829,7 +13830,7 @@ Number of trips above 100 minutes = 909
 <ul>
 <li>Average trip duration is highest for "Other" gender category. </li>
 <li>Trip duration is slightly higher for females than males.</li>
-<li>Average trips duration for Customers is more than double that for Subrcibers. </li>
+<li>Average trips duration for Customers is more than double that for Subscribers. </li>
 <li>Cyclists in the "Bike Share for All" program take slightly shorter trips than other Cyclists.</li>
 </ul>
 
@@ -13916,7 +13917,7 @@ Number of trips above 100 minutes = 909
 <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="n">rotation</span> <span class="o">=</span> <span class="mi">30</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">yscale</span><span class="p">(</span><span class="s1">&#39;log&#39;</span><span class="p">)</span>
 <span class="n">ticks</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">30</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">300</span><span class="p">,</span> <span class="mi">1000</span><span class="p">,</span> <span class="mi">3000</span><span class="p">,</span> <span class="mi">10000</span><span class="p">,</span> <span class="mi">30000</span><span class="p">]</span>
-<span class="c1"># Convert ticks into string values, to be displaye dlong the x-axis</span>
+<span class="c1"># Convert ticks into string values, to be displayed along the x-axis</span>
 <span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;</span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">ticks</span><span class="p">]</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">yticks</span><span class="p">(</span><span class="n">ticks</span><span class="p">,</span> <span class="n">labels</span><span class="p">)</span>
 
@@ -14028,7 +14029,7 @@ Number of trips above 100 minutes = 909
 <h4 id="We-can-summarize-our-bivariate-findings-as-follows:">We can summarize our bivariate findings as follows:<a class="anchor-link" href="#We-can-summarize-our-bivariate-findings-as-follows:">&#182;</a></h4><ul>
 <li>Average trip duration is highest for "Other" gender category. </li>
 <li>Trip duration is slightly higher for females tha males.</li>
-<li>Average trips duration for Customers is more than double that for Subrcibers. </li>
+<li>Average trips duration for Customers is more than double that for Subscribers. </li>
 <li>Cyclists in the "Bike Share for All" program take slightly shorter trips than other Cyclists.</li>
 <li>Mean trip duration is approx the same across weekdays (with a notable increase in the weekend days).</li>
 <li>Trip duration is practically the same across age groups with those in above 75 years age group taking shorter trip on average.</li>
@@ -14054,7 +14055,8 @@ Number of trips above 100 minutes = 909
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Multivariate-Exploration">Multivariate Exploration<a class="anchor-link" href="#Multivariate-Exploration">&#182;</a></h2>
+<h2 id="Multivariate-Exploration">Multivariate Exploration<a class="anchor-link" href="#Multivariate-Exploration">&#182;</a></h2><p>In this section we explore relationships between different sets of three or more variables.</p>
+
 </div>
 </div>
 </div></section><section>
@@ -14170,7 +14172,7 @@ Number of trips above 100 minutes = 909
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Note the differnce in the trend for Customers which is has peak during the weekend and is not flat unlike Subscribers</p>
+<p>Note the difference in the trend for Customers which is has peak during the weekend and is not flat unlike Subscribers</p>
 
 </div>
 </div>
@@ -14300,13 +14302,13 @@ Number of trips above 100 minutes = 909
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="We-can-summarize-our-multivariate-finidings-as-follows:">We can summarize our multivariate finidings as follows:<a class="anchor-link" href="#We-can-summarize-our-multivariate-finidings-as-follows:">&#182;</a></h4><ul>
+<h4 id="We-can-summarize-our-multivariate-findings-as-follows:">We can summarize our multivariate findings as follows:<a class="anchor-link" href="#We-can-summarize-our-multivariate-findings-as-follows:">&#182;</a></h4><ul>
 <li>The aggregate hourly trend for trips continues across gender (male/female).</li>
-<li>The aggregate hourly trend for trips continues for Subcribers.</li>
+<li>The aggregate hourly trend for trips continues for Subscribers.</li>
 <li>The aggregate hourly trend for trips continues for those not enrolled in the "Bike Share for All" program.</li>
 <li>The high average duration of trips continues for "Other" gender across the days of the week compared to males and females.</li>
 <li>"Customers" continue to take longer trips across the days of the week.</li>
-<li>The trip duration is practically the same for those enrolled in the "Bike Share" program across the week, while it inscreases considerably for those not enrolled in the program during the weekend compared to the weekdays.</li>
+<li>The trip duration is practically the same for those enrolled in the "Bike Share" program across the week, while it increases considerably for those not enrolled in the program during the weekend compared to the weekdays.</li>
 </ul>
 
 </div>
@@ -14316,8 +14318,8 @@ Number of trips above 100 minutes = 909
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="The-following-relationships-are-interesting:">The following relationships are interesting:<a class="anchor-link" href="#The-following-relationships-are-interesting:">&#182;</a></h4><ul>
-<li>There is a noticable difference in the hourly trend for "Others" gender type.</li>
-<li>It is noticably different for Customer user type too with relatively high number of trips in the weekend comparef to the trend observed for Subcribers.</li>
+<li>There is a noticeable difference in the hourly trend for "Others" gender type.</li>
+<li>It is noticeably different for Customer user type too with relatively high number of trips in the weekend compared to the trend observed for Subscribers.</li>
 <li>It is also different for those enrolled in the "Bike Share for All" program with trips relatively high across the day.</li>
 </ul>
 
@@ -14327,7 +14329,7 @@ Number of trips above 100 minutes = 909
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><p>The analysis of the dataset provides the folllowing insights:</p>
+<h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><p>The analysis of the dataset provides the following insights:</p>
 <ul>
 <li>The vast majority of trips are taken by males.</li>
 <li>The vast majority of trips are for cyclists not enrolled in the <b>Bike Share for All</b> program.</li>
