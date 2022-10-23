@@ -8,6 +8,18 @@
 ![Issues](https://img.shields.io/github/issues/walidsi/ford-go-bike)
 
 ### Goal
+The bicycle-sharing service has gained popularity in major cities across the globe. They allow people in metropolitan areas to rent bicycles for short trips usually within 30 minutes. Ford GoBike is a bike sharing service that operates in the San Frnacisco Bay area.
+In this project, we perform and exploratory and explanatory data analysis of the the Ford GoBike dataset. The goal is to figure out what variables possess the most influential power on a bike sharing service. We aim to answer the followinq questions among others:
+- When are most trips taken in terms of time of day, day of the week, or month of the year?
+- How long does the average trip take?
+- Does the above depend on if a user is a subscriber or customer?
+
+### Dataset
+The FordGoBike dataset contains approx. 180k records. They includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area. The dataset includes information like:
+- Trip start/end date and time.
+- Trip duration.
+- Start / end station co-ordinates.
+- Biker age
 
 ### Process
 
@@ -47,11 +59,3 @@ jupyter notebook fordgobike_exploration.ipynb
 ```
 
 This will open the iPython Notebook software and project file in your browser.
-
-### Dataset
-The FordGoBike dataset includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area. The dataset includes information like:
-- Trip start/end date and time.
-- Trip duration.
-- Start / end station co-ordinates.
-- Biker age
-
