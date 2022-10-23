@@ -22,6 +22,11 @@ The FordGoBike dataset contains approx. 180k records. They includes information 
 - Biker age
 
 ### Process
+The analysis process consists of the following steps:
+- Data wrangling (data cleaning, feature engineering, summary statistics and identification of important features)
+- Univariate analysis
+- Bi-variate analysis
+- Multi-variate analysis
 
 ### Summary of Findings
 - The vast majority of trips are taken by males.
