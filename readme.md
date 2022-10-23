@@ -1,5 +1,12 @@
 # FordGoBike Dataset Exploration
 
+![Contributors](https://img.shields.io/github/contributors/walidsi/ford-go-bike?style=plastic)
+![Forks](https://img.shields.io/github/forks/walidsi/ford-go-bike)
+![Downloads](https://img.shields.io/github/downloads/walidsi/ford-go-bike/total)
+![Stars](https://img.shields.io/github/stars/walidsi/ford-go-bike)
+![Licence](https://img.shields.io/github/license/walidsi/ford-go-bike)
+![Issues](https://img.shields.io/github/issues/walidsi/ford-go-bike)
+
 ## Dataset
 
 > The FordGoBike dataset includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area. The dataset includes information like:
