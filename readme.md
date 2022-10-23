@@ -1,6 +1,4 @@
 # FordGoBike Dataset Exploration
-## by Walid Ismail
-
 
 ## Dataset
 
